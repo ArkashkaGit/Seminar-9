@@ -6,12 +6,12 @@
 M = 1; N = 5. -> ""1, 2, 3, 4, 5""
 M = 4; N = 8. -> ""4, 6, 7, 8""
 */
-Console.WriteLine("Введите число -m- :");
+Console.Write("Введите число -m- : ");
 int m = int.Parse(Console.ReadLine());
-Console.WriteLine("Введите число -n- :");
+Console.Write("Введите число -n- : ");
 int n = int.Parse(Console.ReadLine());
 
-// Рекурсивный мнтод
+// Рекурсивный метод
 void NaturalNumberLineMN(int start, int stop)
 {
     if (start > stop) return;
@@ -30,6 +30,8 @@ void NaturalNumberLineMN2(int start, int stop)
 
 Console.WriteLine("Рекурсивный метод:");
 NaturalNumberLineMN(m, n);
+
 Console.WriteLine();
+
 Console.WriteLine("Обычный метод:");
 NaturalNumberLineMN2(m, n);

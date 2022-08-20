@@ -5,11 +5,9 @@
 Даны два неотрицательных числа m и n.
 
 m = 2, n = 3 -> A(m,n) = 9
+m = 3, n = 2 -> A(m,n) = 29
 */
 
-// string[] input = Console.ReadLine().Split(",");
-// int m = int.Parse(input[0]);
-// int n = int.Parse(input[1]);
 Console.WriteLine("Введите значение -m- :");
 int m = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите значение -n- :");
